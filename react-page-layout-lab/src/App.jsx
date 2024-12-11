@@ -2,7 +2,7 @@
 import React from "react";
 import HomePage from "./components/Homepage";
 import EmployeePage from "./components/EmployeePage";
-import "./App.css";
+import "./styles/style.css";
 
 //App component serves as the root of your applications
 function App() {

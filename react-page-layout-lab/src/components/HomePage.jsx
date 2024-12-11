@@ -4,7 +4,7 @@ import EmployeeList from "./EmployeeList";
 
 function HomePage() {
   return (
-    <div id="homePage">
+    <div id="home-Page">
       <Header title="Employee Directory" />
       <SearchBar />
       <EmployeeList />

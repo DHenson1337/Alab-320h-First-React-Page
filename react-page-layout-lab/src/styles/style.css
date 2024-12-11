@@ -1,0 +1,159 @@
+:root {
+  --shen-hong-red: #d72638;
+  --soulstone-blue: #1e1f26;
+  --sapphire-blue: #2e86ab;
+  --tangerine-skin: #f49d37;
+  --prairie-sun: #ffd23f;
+  --parchment-paper: #fbe8a6;
+  --pirate-black: #101010;
+  --burnt-edges: #cf8f50;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--parchment-paper);
+  color: var(--pirate-black);
+  font-family: "Pirata One", cursive;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  background-color: var(--parchment-paper);
+  background-image: radial-gradient(var(--burnt-edges), var(--parchment-paper));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1200px;
+  height: auto;
+  max-height: 90vh;
+  overflow-y: auto;
+  background-color: var(--parchment-paper);
+  border: 5px double var(--pirate-black);
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+#container > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  color: var(--shen-hong-red);
+  text-shadow: 2px 2px var(--pirate-black);
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  background-color: var(--prairie-sun);
+  color: var(--pirate-black);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--pirate-black);
+  margin: 10px 0;
+  font-family: "Pirata One", cursive;
+}
+
+li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 2px solid var(--pirate-black);
+}
+
+li .info {
+  display: flex;
+  flex-direction: column;
+}
+
+li .info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--shen-hong-red);
+}
+
+li .info h3.profession {
+  font-size: 14px;
+  color: var(--pirate-black);
+}
+
+#projects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#projects li {
+  display: flex;
+  align-items: center;
+  background-color: var(--prairie-sun);
+  color: var(--pirate-black);
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid var(--pirate-black);
+  margin: 10px 0;
+  font-family: "Pirata One", cursive;
+}
+
+#projects li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border: 2px solid var(--pirate-black);
+}
+
+#projects li .info {
+  display: flex;
+  flex-direction: column;
+}
+
+#projects li .info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--shen-hong-red);
+}
+
+#projects li .info h3.profession {
+  font-size: 14px;
+  color: var(--pirate-black);
+}
